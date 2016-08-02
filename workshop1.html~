@@ -1,0 +1,63 @@
+
+<!Doctype HTML>
+<html>
+<head>
+<title>
+Rock, paper, scissors
+</title>
+
+</head>
+
+<body>
+hello this is Rock, Paper, Scissors;
+
+<script>
+
+do {
+
+alert ("Enter 'r' for rock, 'p' for paper or 's' for Scissors",'');
+
+//do {
+
+    player = prompt("Enter 'R' for 'Rock', 'P' for 'Paper or 'S' for 'Scissors ",'');
+        
+
+//}
+
+//while (player !=="r" && player !== "p" && player!=="s");
+
+var computer = Math.floor(Math.random() *3);
+
+if (computer === 0) {
+  computer = 'r';
+} else if (computer === 1) {
+  computer = 'p';
+} else {
+  computer = 's';  
+} 
+
+
+if (player === 'r' && computer === 'p') {
+       alert ('Computer wins!!');
+} else if (player === 'r' && computer === 's') {
+       alert ('Computer wins!!');
+} else if (player === 'p' && computer === 'r') {  
+       alert ('Player wins!!');
+} else if (player === 'p' && computer === 's') {
+       alert ('Computer wins!!');
+} else if (player === 's' && computer != 's') {
+       alert ('player wins!!');
+} else { 
+       alert ('It is a tie!!');
+
+} 
+
+}
+
+while (player !=="r" && player !== "p" && player!=="s");
+
+
+
+</script>
+</body>
+</html>

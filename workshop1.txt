@@ -1,0 +1,35 @@
+
+<!Doctype HTML>
+<html>
+<head>
+<title>
+Rock, paper, scissors
+</title>
+
+</head>
+
+<body>
+
+<script>
+
+alert ('Hi');
+prompt ('Enter your Name: ');
+console.log(name);
+Prompt('Enter 'R' or 0 for 'Rock');
+Prompt('Enter 'P' or 1 for 'Paper');
+Prompt('Enter 'S' or 2 for 'Scissors');
+
+console.log(selection);
+
+var computer = Math.floor(Math.random() *3);
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
